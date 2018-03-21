@@ -10,7 +10,7 @@ header {
 }
 header .logo img{
  	width: 300px;
-    position: relative;
+   
    
 }
 .logo{
@@ -36,6 +36,7 @@ fieldset{
     border: 1px solid #08A364;
      width: 50%;
     margin: 0 auto;
+ position: relative;
     
 }
 .control{
@@ -66,7 +67,7 @@ input[type=submit]{
     border-radius: 5px;
     position: absolute;
     right: 10px;
-    bottom: 560px;
+    bottom: 10px;
     box-shadow: 1px 1px 2px black;
 }
 input[type=submit]:hover{
