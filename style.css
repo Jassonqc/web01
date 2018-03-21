@@ -10,6 +10,8 @@ header {
 }
 header .logo img{
  	width: 300px;
+    position: relative;
+   
 }
 .logo{
 	position: absolute;
@@ -28,4 +30,45 @@ header .logo img{
 }
 .menu ul li:hover{
 	background-color: #08A364;
+}
+
+fieldset{
+    border: 1px solid #08A364;
+     width: 50%;
+    margin: 0 auto;
+    
+}
+.control{
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.legend{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+label{
+    display: block
+    
+}
+span{
+    color: red;
+}
+input[type=text]:focus{
+    outline: 0 none;
+    border: solid 1px #08A364;
+}
+input[type=submit]{
+    background-color: #00de8b;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    padding: 5px 15px 5px 15px; 
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    bottom: 560px;
+    box-shadow: 1px 1px 2px black;
+}
+input[type=submit]:hover{
+    background-color: #08A364;
 }
