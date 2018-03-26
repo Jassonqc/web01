@@ -1,18 +1,108 @@
 #conciertos-confirmados{
-    position: absolute;
+   background: url(../img/tour.jpg);
     padding-right: 100px;
     padding-left: 100px;
+   margin-bottom: 30px;
+    padding-bottom: 30px;
 }
-.conciertos{
-   
-    background: #0d1c25;
-}
-.conciertos img{
-    width: 100%;
-    max-width: 112px;
+        
+#conciertos-confirmados .contenedor{
+    
+background: #0D1C25;
+  padding: 25px;
+    display: table;
+  
+
 }
 
-#conciertos-confirmados h1{
+
+.fecha-concierto, img, .comprar {
+  width: 10%;
+  text-align: center;
+  color: #fff;
+}
+
+.lugar-concierto {
+  width: 35%;
+}
+.pais, .ciudad {
+  width: 30%;
+}
+
+
+.fecha-concierto  {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: -10px;
+}
+
+@media screen and (max-width: 768px) {
+  .conciertos {
+    border-bottom: 1px solid #fff;
+  }
+  .pais, .ciudad {
+    width: 50%;
     text-align: center;
-    font-size: 35px;
+  }
+  .lugar-concierto {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    width: 50%;
+    text-align: center;
+  }
+  .fecha-concierto {
+    width: 50%;
+    text-align: center;
+  }
+}
+
+.fecha-concierto span {
+  display: block;
+  color: #a9a9a9;
+  font-size: 67px;
+  margin-bottom: -15px;
+}
+#conciertos-confirmados .contenedor img{
+    margin-top: 20px;
+}
+
+.lugar-concierto {
+    padding: 10px 20px;}
+
+.pais {
+    font-weight: 700;
+    color: #fff;
+    font-size: 28px;
+    margin: 0;
+}
+
+.ciudad {
+ text-transform: uppercase;
+ color: #fff;
+ font-weight: 700; 
+ margin-top: 30px;
+ margin-bottom: 0;
+}
+
+.comprar  {
+    color: #06100c;
+    border-color: #00c47b;
+    background-color: #00de8b;
+    font-weight: 700;
+    margin-top: 25px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#conciertos-confirmados .contenedor:hover {
+  background: #ffffff;
+  color: black;
+}
+.comprar:hover {
+    background: black;
+    color: white;
 }
