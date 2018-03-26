@@ -1,0 +1,38 @@
+#noticias{
+    background-image: url(../img/noticias.jpg);
+}
+
+#noticias .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#noticias article{
+    margin: 15px;
+}
+#noticias img {
+    width: 100%;
+    max-width: 280px;
+}
+#noticias h1,h5 {
+    text-align: center;
+    color: white;
+    
+}
+#noticias h4{
+    color: white;
+    font-size: 13px;
+}
+#noticias h5{
+    font-size: 12px;
+}
+#noticias h4,h5{
+    width: 280px;
+    margin-top: 25px;
+}
+
+@media(min-width:1024px){
+    .contenedor{
+        width:1000px;
+    }
+}

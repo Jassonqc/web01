@@ -37,3 +37,21 @@ header label{
     transform: translateY(0%);
     transition: 0.8s;
 }
+
+@media (min-width:1024px){
+    .menu {
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateY(0%);
+        float: right;
+        display: flex;
+        background: black;
+    }
+    .menu a{
+        color: white;
+    }
+    header label{
+        display: none;
+    }
+}

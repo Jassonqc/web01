@@ -9,24 +9,22 @@
 #conciertos-confirmados .contenedor{
     
 background: #0D1C25;
-  padding: 25px;
+  padding: 30px;
     display: table;
-  
-
+    padding-bottom: 0px;
+  width: 10px;
+ height: 10px;
 }
 
 
 .fecha-concierto, img, .comprar {
   width: 10%;
-  text-align: center;
-  color: #fff;
-}
+  }
 
 .lugar-concierto {
-  width: 35%;
-}
-.pais, .ciudad {
-  width: 30%;
+ font-size: 60px;
+ margin-left: 200px;
+  
 }
 
 
@@ -38,27 +36,6 @@ background: #0D1C25;
   margin-top: -10px;
 }
 
-@media screen and (max-width: 768px) {
-  .conciertos {
-    border-bottom: 1px solid #fff;
-  }
-  .pais, .ciudad {
-    width: 50%;
-    text-align: center;
-  }
-  .lugar-concierto {
-    width: 100%;
-    text-align: center;
-  }
-  img {
-    width: 50%;
-    text-align: center;
-  }
-  .fecha-concierto {
-    width: 50%;
-    text-align: center;
-  }
-}
 
 .fecha-concierto span {
   display: block;
@@ -68,24 +45,26 @@ background: #0D1C25;
 }
 #conciertos-confirmados .contenedor img{
     margin-top: 20px;
+    margin-left: 100px;
+    float: left
 }
 
-.lugar-concierto {
-    padding: 10px 20px;}
 
 .pais {
     font-weight: 700;
     color: #fff;
     font-size: 28px;
-    margin: 0;
+    margin-left: 800px;
+    
 }
 
 .ciudad {
  text-transform: uppercase;
- color: #fff;
+ color: #a9a9a9;
  font-weight: 700; 
  margin-top: 30px;
- margin-bottom: 0;
+ margin-bottom: 10px;
+ margin-left: 800px
 }
 
 .comprar  {
@@ -93,16 +72,25 @@ background: #0D1C25;
     border-color: #00c47b;
     background-color: #00de8b;
     font-weight: 700;
-    margin-top: 25px;
     text-decoration: none;
     padding: 15px;
+    margin-left: 1000px;
+    margin-bottom: 200px;
+    float: right;
+        
 }
 
+
 #conciertos-confirmados .contenedor:hover {
+
   background: #ffffff;
   color: black;
 }
 .comprar:hover {
     background: black;
     color: white;
+}
+
+.contenedor:hover .fecha-concierto, .contenedor:hover .pais  {
+  color: #0D1C25;
 }

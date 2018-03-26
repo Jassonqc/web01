@@ -42,3 +42,24 @@
     color:black;
     border: none;
 }
+
+@media(min-width:1024px) {
+    #banner h1 {
+        font-size: 70px;
+        width: 500px;
+    }
+    #banner p{
+        text-align: center;
+        width: 500px;
+            
+    }
+    #banner #a1{
+        margin-left: 10px;
+    }
+    #banner #a2{
+        margin-left:230px;
+    }
+    #banner img {
+        margin-top: -50px;
+    }
+}
