@@ -1,0 +1,18 @@
+#conciertos-confirmados{
+    position: absolute;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.conciertos{
+   
+    background: #0d1c25;
+}
+.conciertos img{
+    width: 100%;
+    max-width: 112px;
+}
+
+#conciertos-confirmados h1{
+    text-align: center;
+    font-size: 35px;
+}
